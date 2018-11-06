@@ -1,0 +1,33 @@
+.container {
+    font-size: 0; /*fix white space*/
+}
+.container > div {
+    font-size: 16px; /*reset font size*/
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    text-align: center;
+}
+@media (max-width: 480px) { /*breakpoint*/
+    .container > div {
+        display: block;
+        width: 100%;
+    }
+}
+div#content{
+    filter:alpha(opacity=50); 
+    opacity:0.5;
+}
+div#content1{
+    filter:alpha(opacity=50); 
+    opacity:0.5;
+}
+div#content2{
+    filter:alpha(opacity=50); 
+    opacity:0.5;
+}
+p{
+    font-size: larger;
+}

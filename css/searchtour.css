@@ -1,0 +1,8 @@
+div#main{
+	width: 25%;
+	float: left;
+}
+
+@media screen and (max-width: 1000px) {
+ div#main{width: 50%;}
+}

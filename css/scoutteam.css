@@ -1,0 +1,75 @@
+img#avatar{
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    border: 2px solid #000000;
+}
+
+div#escudo{
+	width: 360px;
+	height: 360px;
+	margin-top: 50px;
+	border: 2px solid #000000;
+	margin-left: 100px;
+}
+
+div#escudo1{
+	width: 360px;
+	height: 360px;
+	margin-top: 50px;
+	border: 2px solid #000000;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+
+div#nombret{
+	background-color: grey;
+	width: 100%;
+	height: 50px;
+	border: 2px solid #e9ebee;
+}
+
+div#jugadores{
+	width: 90%;
+	margin-top: 50px;
+	border: 2px solid #000000;
+	margin-left: 60px;
+	float: left;
+}
+
+div#jugt{
+	background-color: grey;
+	width: 100%;
+	height: 50px;
+	border: 2px solid #e9ebee;
+}
+
+div#pl{
+	width: 25%;
+	float: left;
+}
+
+@media screen and (max-width: 1400px) {
+ div#der{clear: left;margin-top: 60px}
+}
+
+div#izq{
+	width: 30%;
+	float: left;
+}
+
+div#der{
+	width: 70%;
+	float: left;
+}
+
+@media screen and (max-width: 1400px) {
+ div#pl{width: 50%}
+ div#izq{width: 100%}
+ div#der{width: 100%}
+ div#escudo1{margin-left: 0px;}
+ div#escudo{margin-left: 0px; }
+ div#jugadores{margin-left: 0px;width: 100%}
+}
+
